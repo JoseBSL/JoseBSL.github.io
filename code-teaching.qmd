@@ -1,0 +1,15 @@
+---
+title: "Code & Teaching"
+---
+
+## Open science and reproducibility
+
+I develop and share reproducible workflows for ecological network analysis and biodiversity research.
+
+## Code
+
+Add links to selected GitHub repositories, R scripts and analytical resources.
+
+## Teaching
+
+Add teaching materials and workshops, including network analysis in R.

@@ -1,0 +1,19 @@
+---
+title: "About me"
+---
+
+I'm Jose Lanuza, a community ecologist studying biodiversity through ecological interactions, particularly plant–pollinator networks.
+
+My research combines field ecology, ecological modelling and quantitative analysis to investigate how ecological communities are structured and respond to environmental change.
+
+## Academic background
+
+I am currently a postdoctoral researcher at IMEDEA (UIB-CSIC), Mallorca, Spain. This section can be updated whenever my affiliation changes.
+
+## Curriculum vitae
+
+Add a PDF CV to the website folder and link it here.
+
+## Connect
+
+Add your personal Google Scholar, Bluesky, LinkedIn, GitHub and ORCID profile URLs here.

@@ -1,0 +1,77 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-copy}
+<span class="eyebrow">COMMUNITY ECOLOGY · ECOLOGICAL NETWORKS</span>
+
+# Understanding biodiversity through ecological interactions.
+
+I study how species interactions shape ecological communities and respond to environmental change, combining field ecology, ecological network analysis and quantitative approaches.
+
+[Explore my research →](research.qmd){.primary-link} &nbsp; [View publications →](publications.qmd){.secondary-link}
+:::
+:::
+
+::: {.content-wrap}
+## Research interests
+
+::: {.three-cols}
+::: {.topic}
+<span class="topic-number">01</span>
+
+### Plant–pollinator interactions
+
+Understanding how plants and pollinators interact across ecological communities.
+:::
+::: {.topic}
+<span class="topic-number">02</span>
+
+### Ecological networks
+
+Exploring the structure, diversity and reorganization of species interactions.
+:::
+::: {.topic}
+<span class="topic-number">03</span>
+
+### Global change
+
+Investigating ecological responses to environmental change and disturbance.
+:::
+:::
+
+::: {.about-section}
+::: {.portrait-placeholder}
+**Your portrait here**
+
+Replace this box with your own photograph when ready.
+:::
+::: {.about-copy}
+<span class="eyebrow">ABOUT ME</span>
+
+## Hi, I'm Jose.
+
+I'm a community ecologist interested in how species interactions shape biodiversity. My work combines field observations, quantitative ecology and ecological network approaches, with a particular interest in plant–pollinator systems.
+
+[Read more about me →](about.qmd)
+
+<div class="social-links">
+<a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar ↗</a>
+<a href="https://bsky.app/" target="_blank" rel="noopener">Bluesky ↗</a>
+<a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+<a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+<a href="https://orcid.org/" target="_blank" rel="noopener">ORCID ↗</a>
+</div>
+
+*These are platform homepages. Replace them with your personal profile URLs before publishing.*
+:::
+:::
+
+## Selected publications
+
+Add three selected papers here, including their DOI links and any associated code or data.
+
+[See all publications →](publications.qmd)
+:::

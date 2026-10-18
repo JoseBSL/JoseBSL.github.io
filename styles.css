@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+:root{--cream:#FAFAF7;--forest:#233D35;--sage:#668779;--line:#DCE5DF;--body:#455B50}
+body{background:var(--cream);color:var(--body);font-family:'Source Sans 3',sans-serif;font-size:1.08rem}
+h1,h2,h3,.navbar-title{color:var(--forest)}
+h1,h2{font-family:Lora,Georgia,serif;letter-spacing:-.035em}
+a{color:var(--forest)}a:hover{color:var(--sage)}
+.navbar{background:var(--cream)!important;border-bottom:1px solid var(--line)}
+.navbar-title{font-family:Lora,Georgia,serif;font-weight:600}
+.hero{max-width:1120px;margin:auto;padding:clamp(5rem,12vw,10rem) 1.5rem 7rem;border-bottom:1px solid var(--line)}
+.hero-copy{max-width:850px}.hero h1{font-size:clamp(2.8rem,6.1vw,5.4rem);line-height:1.12;margin:1.3rem 0 1.5rem}.hero p{font-size:1.3rem;max-width:690px;line-height:1.6}
+.eyebrow{font-size:.77rem;letter-spacing:.16em;color:var(--sage);font-weight:700}
+.primary-link{display:inline-block;background:var(--forest);color:white;padding:.78rem 1.3rem;border-radius:30px;text-decoration:none;margin:1rem 1rem .5rem 0}.primary-link:hover{color:white;background:var(--sage)}.secondary-link{text-decoration:none;font-weight:600}
+.content-wrap{max-width:1120px;margin:0 auto;padding:4rem 1.5rem}.content-wrap h2{margin-bottom:1.7rem}
+.three-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;margin-bottom:6rem}.topic{border-top:1px solid var(--line);padding-top:1rem}.topic-number{color:var(--sage);font-size:.8rem}.topic h3{font-size:1.3rem;margin:.6rem 0}
+.about-section{display:grid;grid-template-columns: .8fr 1.2fr;gap:5rem;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:5rem 0;margin-bottom:5rem}
+.portrait-placeholder{min-height:400px;background:#E5EAE4;border-radius:8px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:var(--sage);padding:2rem}.portrait-placeholder p{max-width:230px}
+.about-copy h2{font-size:2.8rem}.social-links{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;margin:2rem 0}.social-links a{font-size:.95rem;font-weight:600;text-decoration:none}.about-copy em{font-size:.8rem;color:var(--sage)}
+.page-footer{border-top:1px solid var(--line)}
+@media(max-width:750px){.three-cols,.about-section{grid-template-columns:1fr;gap:2rem}.hero{padding:5rem 1.2rem}.hero p{font-size:1.1rem}.portrait-placeholder{min-height:300px}.content-wrap{padding:3rem 1.2rem}}
