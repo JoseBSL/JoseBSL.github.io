@@ -1,0 +1,9 @@
+---
+title: "Teaching"
+---
+
+I enjoy teaching ecological data analysis, ecological networks and reproducible research using R.
+
+## Courses and workshops
+
+Teaching materials and practical resources will be available here.

@@ -1,23 +1,24 @@
+
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Jose Lanuza"
+  title: "Jose B. Lanuza"
+  site-url: "https://josebsl.github.io"
+  description: "Personal academic website of Jose B. Lanuza, studying plant-pollinator interactions, ecological networks and global change."
+
   navbar:
-    background: light
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About me
-      - href: research.qmd
-        text: Research
-      - href: publications.qmd
-        text: Publications
-      - href: code-teaching.qmd
-        text: Code & Teaching
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+
   page-footer:
-    left: "© Jose Lanuza"
+    left: "© Jose B. Lanuza"
     right: "Built with Quarto"
 
 format:

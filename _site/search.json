@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "code-teaching.html",
+    "href": "code-teaching.html",
+    "title": "Code & Teaching",
+    "section": "",
+    "text": "I develop and share reproducible workflows for ecological network analysis and biodiversity research."
+  },
+  {
+    "objectID": "code-teaching.html#open-science-and-reproducibility",
+    "href": "code-teaching.html#open-science-and-reproducibility",
+    "title": "Code & Teaching",
+    "section": "",
+    "text": "I develop and share reproducible workflows for ecological network analysis and biodiversity research."
+  },
+  {
+    "objectID": "code-teaching.html#code",
+    "href": "code-teaching.html#code",
+    "title": "Code & Teaching",
+    "section": "Code",
+    "text": "Code\nAdd links to selected GitHub repositories, R scripts and analytical resources."
+  },
+  {
+    "objectID": "code-teaching.html#teaching",
+    "href": "code-teaching.html#teaching",
+    "title": "Code & Teaching",
+    "section": "Teaching",
+    "text": "Teaching\nAdd teaching materials and workshops, including network analysis in R."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "A selection of peer-reviewed research. Add citations, DOI links and associated code/data below."
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "Selected publications",
+    "text": "Selected publications\nPublication entries to be added. No article titles have been invented."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "How do species interactions shape biodiversity and ecosystem functioning?"
+  },
+  {
+    "objectID": "research.html#plantpollinator-interactions",
+    "href": "research.html#plantpollinator-interactions",
+    "title": "Research",
+    "section": "",
+    "text": "How do species interactions shape biodiversity and ecosystem functioning?"
+  },
+  {
+    "objectID": "research.html#ecological-networks",
+    "href": "research.html#ecological-networks",
+    "title": "Research",
+    "section": "Ecological networks",
+    "text": "Ecological networks\nHow does the structure of interactions vary across space, time and environmental gradients?"
+  },
+  {
+    "objectID": "research.html#global-change",
+    "href": "research.html#global-change",
+    "title": "Research",
+    "section": "Global change",
+    "text": "Global change\nHow do ecological communities and their interactions respond to disturbance and environmental change?\nAdd specific projects, figures and collaborators here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Understanding biodiversity through ecological interactions.",
+    "section": "",
+    "text": "COMMUNITY ECOLOGY · ECOLOGICAL NETWORKS\n\n\nI study how species interactions shape ecological communities and respond to environmental change, combining field ecology, ecological network analysis and quantitative approaches.\nExplore my research →   View publications →"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Understanding biodiversity through ecological interactions.",
+    "section": "Research interests",
+    "text": "Research interests\n\n\n01\n\nPlant–pollinator interactions\nUnderstanding how plants and pollinators interact across ecological communities.\n\n\n\n02\n\nEcological networks\nExploring the structure, diversity and reorganization of species interactions.\n\n\n\n03\n\nGlobal change\nInvestigating ecological responses to environmental change and disturbance.\n\n\n\n\n\nYour portrait here\nReplace this box with your own photograph when ready.\n\n\nABOUT ME\n\nHi, I’m Jose.\nI’m a community ecologist interested in how species interactions shape biodiversity. My work combines field observations, quantitative ecology and ecological network approaches, with a particular interest in plant–pollinator systems.\nRead more about me →\n\nGoogle Scholar ↗ Bluesky ↗ LinkedIn ↗ GitHub ↗ ORCID ↗\n\nThese are platform homepages. Replace them with your personal profile URLs before publishing."
+  },
+  {
+    "objectID": "index.html#hi-im-jose.",
+    "href": "index.html#hi-im-jose.",
+    "title": "Understanding biodiversity through ecological interactions.",
+    "section": "Hi, I’m Jose.",
+    "text": "Hi, I’m Jose.\nI’m a community ecologist interested in how species interactions shape biodiversity. My work combines field observations, quantitative ecology and ecological network approaches, with a particular interest in plant–pollinator systems.\nRead more about me →\n\nGoogle Scholar ↗ Bluesky ↗ LinkedIn ↗ GitHub ↗ ORCID ↗\n\nThese are platform homepages. Replace them with your personal profile URLs before publishing."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Understanding biodiversity through ecological interactions.",
+    "section": "Selected publications",
+    "text": "Selected publications\nAdd three selected papers here, including their DOI links and any associated code or data.\nSee all publications →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "I’m Jose Lanuza, a community ecologist studying biodiversity through ecological interactions, particularly plant–pollinator networks.\nMy research combines field ecology, ecological modelling and quantitative analysis to investigate how ecological communities are structured and respond to environmental change."
+  },
+  {
+    "objectID": "about.html#academic-background",
+    "href": "about.html#academic-background",
+    "title": "About me",
+    "section": "Academic background",
+    "text": "Academic background\nI am currently a postdoctoral researcher at IMEDEA (UIB-CSIC), Mallorca, Spain. This section can be updated whenever my affiliation changes."
+  },
+  {
+    "objectID": "about.html#curriculum-vitae",
+    "href": "about.html#curriculum-vitae",
+    "title": "About me",
+    "section": "Curriculum vitae",
+    "text": "Curriculum vitae\nAdd a PDF CV to the website folder and link it here."
+  },
+  {
+    "objectID": "about.html#connect",
+    "href": "about.html#connect",
+    "title": "About me",
+    "section": "Connect",
+    "text": "Connect\nAdd your personal Google Scholar, Bluesky, LinkedIn, GitHub and ORCID profile URLs here."
+  }
+]

@@ -1,17 +1,22 @@
+
 ---
 title: "Research"
+bibliography: publications.bib
+nocite: |
+  @*
 ---
 
-## Plant–pollinator interactions
+::: {.content-wrap}
 
-How do species interactions shape biodiversity and ecosystem functioning?
+# Research
 
-## Ecological networks
+My research focuses on understanding biodiversity through ecological interactions.
 
-How does the structure of interactions vary across space, time and environmental gradients?
+## Publications
 
-## Global change
+A selection of my peer-reviewed publications.
 
-How do ecological communities and their interactions respond to disturbance and environmental change?
+::: {#refs}
+:::
 
-*Add specific projects, figures and collaborators here.*
+:::
