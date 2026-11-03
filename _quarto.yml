@@ -12,10 +12,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Research"
+      - text: "Publications"
         href: research.qmd
-      - text: "Teaching"
-        href: teaching.qmd
 
   page-footer:
     left: "© Jose B. Lanuza"

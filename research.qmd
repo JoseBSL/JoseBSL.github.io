@@ -1,22 +1,23 @@
 
 ---
-title: "Research"
-bibliography: publications.bib
-nocite: |
-  @*
+title: "Publications"
 ---
 
 ::: {.content-wrap}
 
-# Research
+{{< include publications-list.html >}}
 
-My research focuses on understanding biodiversity through ecological interactions.
+## Publication fairness {.publication-section-title}
 
-## Publications
+I assess the citation fairness of my publication record using the
+[`fairpub` R package](https://github.com/frbcesab/fairpub),
+based on references indexed by OpenAlex, as part of my commitment
+to transparent and responsible research evaluation.
 
-A selection of my peer-reviewed publications.
+::: {.fairness-panel}
 
-::: {#refs}
+![Citation fairness assessment](images/citation_fairness.svg){width=100%}
+
 :::
 
 :::

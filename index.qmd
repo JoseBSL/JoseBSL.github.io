@@ -2,92 +2,247 @@
 ---
 title: ""
 page-layout: full
+css: homepage-vertical.css
 ---
 
-::: {.hero}
+```{=html}
+<div class="academic-home">
 
-::: {.hero-text}
+  <!-- =====================================================
+       LEFT COLUMN: PROFILE
+       ===================================================== -->
 
-<div class="eyebrow">ECOLOGY / BIODIVERSITY / NETWORKS</div>
+  <section class="academic-profile" aria-label="About me">
 
-# Understanding biodiversity through ecological interactions.
+    <!-- Circular portrait -->
+    <div class="academic-photo-wrap">
+      <img
+        class="academic-portrait"
+        src="images/profile.jpg"
+        alt="Portrait of Jose B. Lanuza"
+      >
+    </div>
 
-I study how species interactions shape ecological communities and respond to environmental change, combining field ecology, ecological network analysis and quantitative approaches.
+    <!-- Name -->
+    <h1 class="academic-name">
+      Jose B. Lanuza<span class="academic-dot">.</span>
+    </h1>
 
-[Explore my research →](research.qmd){.primary-link}
+    <!-- Academic identity -->
+    <p class="academic-eyebrow">
+      COMMUNITY ECOLOGIST
+    </p>
 
-::: {.social-icons}
+    <!-- Research keywords -->
+    <p class="academic-keywords">
+      Plant–pollinator interactions
+      <span aria-hidden="true">·</span>
+      Network ecology
+      <span aria-hidden="true">·</span>
+      Global change
+    </p>
 
-<a href="https://scholar.google.com/citations?user=F6C5gFcAAAAJ"
-   target="_blank" rel="noopener noreferrer"
-   title="Google Scholar" aria-label="Google Scholar">
-  <img src="https://cdn.simpleicons.org/googlescholar/FFFFFF" alt="">
-</a>
+    <!-- Short biography -->
+    <p>
+      I study how species interactions shape ecological communities
+      and respond to environmental change, combining field ecology,
+      ecological network analysis and macroecological approaches.
+    </p>
 
-<a href="https://bsky.app/profile/joseblanuza.bsky.social"
-   target="_blank" rel="noopener noreferrer"
-   title="Bluesky" aria-label="Bluesky">
-  <img src="https://cdn.simpleicons.org/bluesky/FFFFFF" alt="">
-</a>
 
-<a href="https://github.com/JoseBSL"
-   target="_blank" rel="noopener noreferrer"
-   title="GitHub" aria-label="GitHub">
-  <img src="https://cdn.simpleicons.org/github/FFFFFF" alt="">
-</a>
+    <!-- =================================================
+         SOCIAL AND ACADEMIC ICONS
+         ================================================= -->
 
-:::
+    <div class="academic-links academic-icon-links">
 
-:::
+      <!-- Email -->
+      <a
+        href="mailto:barragansljose@gmail.com"
+        aria-label="Email"
+        title="Email"
+      >
+        <svg
+          class="academic-email-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#2D6381"
+          stroke-width="1.8"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 7-10 6L2 7"/>
+        </svg>
+      </a>
 
-:::
+      <!-- Bluesky -->
+      <a
+        href="https://bsky.app/profile/joseblanuza.bsky.social"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Bluesky"
+        title="Bluesky"
+      >
+        <img
+          src="https://cdn.simpleicons.org/bluesky"
+          alt=""
+        >
+      </a>
 
-::: {.home-section}
+      <!-- Google Scholar -->
+      <a
+        href="https://scholar.google.com/citations?user=F6C5gFcAAAAJ&amp;hl=es"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Google Scholar"
+        title="Google Scholar"
+      >
+        <img
+          src="https://cdn.simpleicons.org/googlescholar"
+          alt=""
+        >
+      </a>
 
-<div class="section-label">RESEARCH AREAS</div>
+      <!-- GitHub -->
+      <a
+        href="https://github.com/JoseBSL"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+        title="GitHub"
+      >
+        <img
+          src="https://cdn.simpleicons.org/github"
+          alt=""
+        >
+      </a>
 
-::: {.research-grid}
+    </div>
 
-::: {.research-card}
+  </section>
 
-<span class="card-number">01</span>
 
-### Plant–pollinator interactions
+  <!-- =====================================================
+       RIGHT COLUMN: ACADEMIC TRAJECTORY
+       ===================================================== -->
 
-Understanding the ecological processes that determine interactions between plants and their pollinators.
+  <section
+    class="academic-career"
+    aria-labelledby="career-heading"
+  >
 
-:::
+    <h2 id="career-heading">
+      Academic trajectory
+    </h2>
 
-::: {.research-card}
+    <div class="academic-timeline">
 
-<span class="card-number">02</span>
+      <!-- IMEDEA -->
+      <article class="academic-position is-current">
 
-### Ecological networks
+        <div class="academic-position-meta">
+          2025–2027
+          <span class="academic-current-label">CURRENT</span>
+        </div>
 
-Investigating the structure, dynamics and reorganisation of ecological communities through species interaction networks.
+        <div class="academic-position-content">
 
-:::
+          <img
+            src="images/logos/imedea.png"
+            alt="IMEDEA logo"
+          >
 
-::: {.research-card}
+          <div>
+            <h3>IMEDEA · CSIC–UIB</h3>
+            <p>Juan de la Cierva Postdoctoral Researcher</p>
+            <span>Mallorca, Spain</span>
+          </div>
 
-<span class="card-number">03</span>
+        </div>
 
-### Biodiversity change
+      </article>
 
-Exploring how environmental change and human activities influence species interactions and ecological communities.
 
-:::
+      <!-- iDiv -->
+      <article class="academic-position">
 
-::: {.research-card}
+        <div class="academic-position-meta">
+          2023–2025
+        </div>
 
-<span class="card-number">04</span>
+        <div class="academic-position-content">
 
-### Quantitative ecology
+          <img
+            src="images/logos/idiv.png"
+            alt="iDiv logo"
+          >
 
-Combining field observations, statistical modelling and computational approaches to understand biodiversity patterns.
+          <div>
+            <h3>iDiv · Leipzig</h3>
+            <p>Postdoctoral Researcher</p>
+            <span>Leipzig, Germany</span>
+          </div>
 
-:::
+        </div>
 
-:::
+      </article>
 
-:::
+
+      <!-- EBD–CSIC -->
+      <article class="academic-position">
+
+        <div class="academic-position-meta">
+          2021–2022
+        </div>
+
+        <div class="academic-position-content">
+
+          <img
+            src="images/logos/ebd.png"
+            alt="EBD–CSIC logo"
+          >
+
+          <div>
+            <h3>Estación Biológica de Doñana · CSIC</h3>
+            <p>Postdoctoral Researcher</p>
+            <span>Seville, Spain</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- University of New England -->
+      <article class="academic-position">
+
+        <div class="academic-position-meta">
+          2017–2022
+        </div>
+
+        <div class="academic-position-content">
+
+          <img
+            src="images/logos/une.png"
+            alt="University of New England logo"
+          >
+
+          <div>
+            <h3>University of New England</h3>
+            <p>PhD in Ecology</p>
+            <span>Armidale, Australia</span>
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+</div>
+```

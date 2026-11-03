@@ -1,0 +1,763 @@
+
+/* ==========================================================
+   Jose B. Lanuza | Academic Website
+   Light minimalist portfolio
+   ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+
+/* ==========================================================
+   1. Design system
+   ========================================================== */
+
+:root {
+  --background: #FAFAF7;
+  --foreground: #233D35;
+  --forest: #233D35;
+  --blue: #2D6381;
+  --turquoise: #4DB6A3;
+  --sage: #668779;
+  --line: #DCE5DF;
+  --body-text: #455B50;
+  --body: #455B50;
+  --surface: #F1F5F0;
+  --surface-hover: #E8EFE9;
+
+  --bs-body-bg: var(--background);
+  --bs-body-color: var(--body-text);
+  --bs-heading-color: var(--blue);
+  --bs-link-color: var(--sage);
+  --bs-link-hover-color: var(--blue);
+}
+
+html, body {
+  background: var(--background);
+}
+
+body {
+  color: var(--body-text);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-title {
+  font-family: 'Source Code Pro', monospace;
+  letter-spacing: -0.035em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--blue);
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+p {
+  color: var(--body-text);
+}
+
+a {
+  color: var(--sage);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+
+/* ==========================================================
+   2. Navigation
+   ========================================================== */
+
+.navbar {
+  background: var(--background) !important;
+  border-bottom: 1px solid var(--line);
+  min-height: 96px;
+  padding: 0.85rem 2rem;
+}
+
+.navbar-title {
+  color: var(--forest) !important;
+  font-size: 1.65rem;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--body-text) !important;
+  font-size: 1.3rem;
+  padding: 0.8rem 1.1rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--blue) !important;
+}
+
+.navbar .quarto-search-button,
+.navbar .bi-search,
+.navbar .navbar-toggler {
+  color: var(--foreground) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--line);
+}
+
+
+/* ==========================================================
+   3. Main layout
+   ========================================================== */
+
+#quarto-content,
+#quarto-content main,
+.page-columns {
+  background: var(--background);
+}
+
+#quarto-content main {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#quarto-content {
+  min-height: calc(100vh - 150px);
+}
+
+
+/* ==========================================================
+   4. Homepage hero
+   ========================================================== */
+
+.hero {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem 4rem;
+}
+
+.hero-text {
+  max-width: 820px;
+}
+
+.eyebrow,
+.section-label {
+  font-family: 'Source Code Pro', monospace;
+  color: var(--sage);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+}
+
+.eyebrow {
+  margin-bottom: 1.7rem;
+}
+
+.hero h1 {
+  color: var(--blue);
+  font-size: clamp(2.4rem, 4.5vw, 4rem);
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.045em;
+  margin: 0 0 1.7rem;
+}
+
+.hero-text p {
+  max-width: 690px;
+  color: var(--body-text);
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-bottom: 1.3rem;
+}
+
+
+/* ==========================================================
+   5. Primary button
+   ========================================================== */
+
+.primary-link {
+  display: inline-flex;
+  align-items: center;
+  background: var(--forest);
+  color: #FFFFFF !important;
+  padding: 0.8rem 1.35rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 0.7rem 0 1rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.primary-link:hover {
+  background: #365D4C;
+  color: #FFFFFF !important;
+  transform: translateY(-2px);
+}
+
+
+/* ==========================================================
+   6. Social icons
+   ========================================================== */
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.4rem;
+}
+
+.social-icons a {
+  width: 46px;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--foreground);
+  background: transparent;
+  text-decoration: none;
+  transition: background 0.2s ease,
+              border-color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.social-icons img {
+  width: 23px;
+  height: 23px;
+  object-fit: contain;
+  filter: none;
+}
+
+.social-icons a:hover {
+  background: var(--surface);
+  border-color: var(--sage);
+  transform: translateY(-2px);
+}
+
+.social-icons a:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+
+/* ==========================================================
+   7. Research areas
+   ========================================================== */
+
+.home-section {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 6rem;
+  border-top: 1px solid var(--line);
+}
+
+.section-label {
+  margin-bottom: 1.8rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.research-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  padding: 1.7rem;
+  transition: background 0.2s ease,
+              border-color 0.2s ease,
+              transform 0.2s ease;
+}
+
+.research-card:hover {
+  background: var(--surface-hover);
+  border-color: var(--sage);
+  transform: translateY(-3px);
+}
+
+.card-number {
+  display: block;
+  font-family: 'Source Code Pro', monospace;
+  color: var(--sage);
+  font-size: 0.8rem;
+  margin-bottom: 1.3rem;
+}
+
+.research-card h3 {
+  color: var(--blue);
+  font-size: 1.15rem;
+  line-height: 1.4;
+  margin: 0 0 0.8rem;
+}
+
+.research-card p {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+/* ==========================================================
+   8. Research and teaching pages
+   ========================================================== */
+
+.content-wrap {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.content-wrap h2 {
+  color: var(--blue);
+  font-size: 1.6rem;
+  margin: 1.8rem 0 1rem;
+}
+
+.content-wrap h3 {
+  color: var(--blue);
+  font-size: 1.2rem;
+  margin: 1.4rem 0 0.6rem;
+}
+
+.content-wrap p {
+  margin-bottom: 0.9rem;
+}
+
+
+/* ==========================================================
+   9. Code formatting
+   ========================================================== */
+
+code, pre, kbd {
+  font-family: 'Source Code Pro', monospace;
+}
+
+:not(pre) > code {
+  color: var(--forest);
+  background: #E8EFE9;
+}
+
+pre {
+  background: var(--surface);
+  color: var(--foreground);
+  border: 1px solid var(--line);
+}
+
+
+/* ==========================================================
+   10. Footer
+   ========================================================== */
+
+.page-footer {
+  background: var(--background);
+  color: var(--body-text);
+  border-top: 1px solid var(--line);
+  padding: 0.9rem 0;
+  font-size: 0.85rem;
+}
+
+.page-footer a {
+  color: var(--sage);
+}
+
+
+/* ==========================================================
+   11. Responsive design
+   ========================================================== */
+
+@media (max-width: 850px) {
+
+  .navbar {
+    min-height: 65px;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-title {
+    font-size: 1.15rem;
+  }
+
+  .navbar-nav,
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 3.5rem 1.25rem 3rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2rem, 6vw, 3rem);
+  }
+
+  .hero-text p {
+    font-size: 1.05rem;
+  }
+
+  .home-section {
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card {
+    padding: 1.4rem;
+  }
+
+  .content-wrap {
+    padding: 2rem 1.25rem;
+  }
+
+}
+
+
+/* ==========================================================
+   12. Reduced motion accessibility
+   ========================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  a,
+  .primary-link,
+  .social-icons a,
+  .research-card {
+    transition: none;
+  }
+
+  .primary-link:hover,
+  .social-icons a:hover,
+  .research-card:hover {
+    transform: none;
+  }
+
+}
+
+
+/* ==========================================================
+   13. Research page | General bibliography
+   ========================================================== */
+
+.quarto-title-block {
+  display: none;
+}
+
+#refs {
+  max-width: 850px;
+  margin-top: 2rem;
+}
+
+#refs .csl-entry {
+  position: relative;
+  margin-bottom: 1.8rem;
+  padding-left: 0;
+  text-indent: 0;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: var(--body-text);
+}
+
+#refs .publication-title {
+  font-weight: 400;
+  color: #1F2421;
+}
+
+#refs .my-name {
+  font-weight: 600;
+  color: #1F2421;
+}
+
+#refs em {
+  color: #1F2421;
+}
+
+#refs a {
+  color: var(--sage);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+#refs a:hover {
+  border-bottom-color: var(--sage);
+}
+
+
+/* ==========================================================
+   Publications | Refined compact layout
+   ========================================================== */
+
+/* Main Publications heading: bolder, no underline */
+
+.content-wrap h2 {
+  font-weight: 700;
+  border-bottom: none !important;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+
+/* Remove any Quarto heading border */
+
+.content-wrap h2.anchored {
+  border-bottom: none !important;
+}
+
+/* Publication list spacing */
+
+.publications-list {
+  margin-top: 1.2rem;
+}
+
+/* Publication years */
+
+.content-wrap h3.publication-year {
+  color: var(--turquoise);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: 1.8rem 0 0.8rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line);
+}
+
+/* Individual publication spacing */
+
+.publication-entry {
+  margin-bottom: 0.8rem;
+}
+
+/* Reference typography */
+
+.publication-reference {
+  color: #1F2421;
+  font-size: 0.98rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: none;
+}
+
+/* Your name: slightly emphasized */
+
+.publication-reference .my-name {
+  color: inherit;
+  font-weight: 600;
+}
+
+/* Article titles */
+
+.publication-reference .publication-title {
+  color: inherit;
+  font-weight: 400;
+}
+
+/* Journal names */
+
+.publication-reference em {
+  color: inherit;
+  font-style: italic;
+}
+
+/* DOI links */
+
+.publication-reference .publication-doi {
+  color: var(--turquoise);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+.publication-reference .publication-doi:hover {
+  color: var(--blue);
+}
+
+/* Mobile: avoid stretched lines */
+
+@media (max-width: 600px) {
+  .publication-reference {
+    text-align: left;
+  }
+}
+
+
+/* ==========================================================
+   Publication fairness
+   ========================================================== */
+
+.content-wrap .fairness-panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.3rem 1.6rem;
+  margin: 1rem 0 2rem;
+}
+
+.fairness-panel strong {
+  color: var(--forest);
+  font-weight: 600;
+}
+
+.fairness-panel p {
+  color: #1F2421;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.fairness-panel p:last-child {
+  margin-bottom: 0;
+}
+
+/* Fairness section heading */
+
+.content-wrap h2#publication-fairness {
+  color: var(--blue);
+  font-weight: 700;
+  border-bottom: none;
+  margin-top: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+
+/* ==========================================================
+   15. Minimal homepage | Compact two-column hero
+   ========================================================== */
+
+.hero-home {
+  width: min(100% - 3rem, 1000px);
+  margin: 0 auto;
+  padding: 4rem 0 4.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.8fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.hero-home-text { min-width: 0; }
+
+/* Keep the actual homepage heading visible. */
+.hero-home .hero-home-text h1,
+.hero-home h1.home-headline {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: var(--forest) !important;
+  font-family: 'Source Code Pro', monospace;
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.045em;
+  margin: 0 0 1.4rem;
+}
+
+.hero-accent {
+  width: 55px;
+  height: 4px;
+  background: var(--sage);
+  border-radius: 4px;
+  margin: 0 0 1.4rem;
+}
+
+.hero-home-text > p {
+  max-width: 570px;
+  color: var(--body-text);
+  font-size: 1.08rem;
+  line-height: 1.65;
+  margin: 0 0 1.5rem;
+}
+
+.hero-home-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.15rem;
+  margin-top: 1.6rem;
+}
+
+.hero-home-actions .primary-link { margin: 0; }
+
+.hero-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.hero-social img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.hero-social:hover { transform: translateY(-2px); }
+
+.hero-social-link {
+  color: var(--forest);
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.hero-social-link:hover { color: var(--blue); }
+
+.hero-home-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.hero-home-photo p { margin: 0; }
+
+.hero-home-photo img.profile-photo {
+  display: block;
+  width: min(100%, 290px);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 50%;
+  border: 5px solid #C9DBD1;
+}
+
+@media (max-width: 850px) {
+  .hero-home {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem 0;
+  }
+
+  .hero-home-photo { grid-row: 1; }
+
+  .hero-home-photo img.profile-photo {
+    width: min(65vw, 240px);
+  }
+
+  .hero-home .hero-home-text h1,
+  .hero-home h1.home-headline {
+    font-size: clamp(2rem, 6vw, 2.8rem);
+  }
+
+  .hero-home-text > p { font-size: 1.05rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-social { transition: none; }
+  .hero-social:hover { transform: none; }
+}

@@ -2,8 +2,3 @@
 title: "Publications"
 ---
 
-A selection of peer-reviewed research. Add citations, DOI links and associated code/data below.
-
-## Selected publications
-
-*Publication entries to be added. No article titles have been invented.*
